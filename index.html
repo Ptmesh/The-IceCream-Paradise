@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ice Cream Paradise</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <nav>
+    <div class="container">
+      <h1>Ice Cream Paradise</h1>
+    </div>
+  </nav>
+
+  <main>
+    <div class="container">
+      <div class="flavors">
+        <label for="flavor">Select your flavor:</label>
+        <select id="flavor">
+          <option value="Mango">Mango</option>
+          <option value="Banana">Banana</option>
+          <option value="Strawberry">Strawberry</option>
+          <option value="Chikoo">Chikoo</option>
+          <option value="Apple">Apple</option>
+        </select>
+      </div>
+      <div class="toppings">
+        <label for="topping">Select toppings:</label>
+        <select id="topping">
+          <option value="Chocolate">Chocolate</option>
+          <option value="Peanuts">Peanuts</option>
+          <option value="Sprinkles">Sprinkles</option>
+          <option value="Caramel">Caramel</option>
+        </select>
+      </div>
+      <div class="holder">
+        <label for="holder">Select holder:</label>
+        <select id="holder">
+          <option value="Cone">Cone</option>
+          <option value="Cup">Cup</option>
+          <option value="Stick">Stick</option>
+        </select>
+      </div>
+      <button onclick="startProduction()">Place Order</button>
+      <div class="progress" id="progress">Flavor selection complete!</div>
+    </div>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>Created and designed by Prathmesh Takalkar</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
